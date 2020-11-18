@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/empresas/static/css/main.66ef744c.chunk.css",
-    "main.js": "/empresas/static/js/main.084b060d.chunk.js",
-    "main.js.map": "/empresas/static/js/main.084b060d.chunk.js.map",
+    "main.css": "/empresas/static/css/main.0ccfe8fb.chunk.css",
+    "main.js": "/empresas/static/js/main.6b47b58c.chunk.js",
+    "main.js.map": "/empresas/static/js/main.6b47b58c.chunk.js.map",
     "runtime-main.js": "/empresas/static/js/runtime-main.3212977d.js",
     "runtime-main.js.map": "/empresas/static/js/runtime-main.3212977d.js.map",
     "static/js/2.164b9f7b.chunk.js": "/empresas/static/js/2.164b9f7b.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.cdf46bd6.chunk.js": "/empresas/static/js/3.cdf46bd6.chunk.js",
     "static/js/3.cdf46bd6.chunk.js.map": "/empresas/static/js/3.cdf46bd6.chunk.js.map",
     "index.html": "/empresas/index.html",
-    "static/css/main.66ef744c.chunk.css.map": "/empresas/static/css/main.66ef744c.chunk.css.map",
+    "static/css/main.0ccfe8fb.chunk.css.map": "/empresas/static/css/main.0ccfe8fb.chunk.css.map",
     "static/js/2.164b9f7b.chunk.js.LICENSE.txt": "/empresas/static/js/2.164b9f7b.chunk.js.LICENSE.txt",
     "static/media/email.fb82ffed.svg": "/empresas/static/media/email.fb82ffed.svg",
     "static/media/ioasys_logo.4da438b1.png": "/empresas/static/media/ioasys_logo.4da438b1.png",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.3212977d.js",
     "static/js/2.164b9f7b.chunk.js",
-    "static/css/main.66ef744c.chunk.css",
-    "static/js/main.084b060d.chunk.js"
+    "static/css/main.0ccfe8fb.chunk.css",
+    "static/js/main.6b47b58c.chunk.js"
   ]
 }
