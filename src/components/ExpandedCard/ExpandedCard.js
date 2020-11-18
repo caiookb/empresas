@@ -2,14 +2,13 @@ import React from "react";
 import styles from "./ExpandedCard.module.css";
 
 const ExpandedCard = ({ enterprise }) => {
-  const {
-    enterprise_name,
-    country,
-    photo,
-    enterprise_type: { enterprise_type_name },
-    description,
-    share_price,
-  } = enterprise;
+  const enterprise_name = enterprise?.enterprise_name;
+  const country = enterprise?.country;
+  const enterprise_type_name = enterprise?.enterprise_type.enterprise_type_name;
+  const description = enterprise?.description;
+  const share_price = enterprise?.share_price;
+  const photo = enterprise?.photo;
+
   return (
     <div className={styles.card}>
       <div
@@ -18,8 +17,8 @@ const ExpandedCard = ({ enterprise }) => {
           backgroundImage: `url(https://empresas.ioasys.com.br${photo})`,
         }}
       >
-        {enterprise_name.charAt(enterprise_name[0])}
-        {enterprise_name.charAt(enterprise_name.length - 1).toUpperCase()}
+        {enterprise_name?.charAt(enterprise_name[0])}
+        {enterprise_name?.charAt(enterprise_name.length - 1).toUpperCase()}
       </div>
       <div className={styles.info}>
         <strong>{enterprise_name}</strong>
