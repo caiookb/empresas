@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  height: 100px;
+  color: black;
+  background: linear-gradient(180deg, #ee4c77 65%, #0d0430 180%);
+  position: relative;
+}
+
+.options {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+}
+
+.logout {
+  position: fixed;
+  right: 10px;
+  color: white;
+}
+
+.normalHeader {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.expandedHeader {
+  width: 80%;
+  margin: auto;
+}
+
+.goBackHeader {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  color: white;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
